@@ -1,0 +1,33 @@
+case studey: healthcare-stroke causing factors
+
+problem study (obj)
+
+steps
+data loading
+data cleaning(transfomring) using power query
+data modeling----relations b/w tables
+
+DAX In power bi: Data analysis expression- for specially measure ,
+excel fomrula vs dax measure:
+excel formula effects in cell wise but in dax measure it affects whole table data.
+in power query: mlang where we write formula for cells in excel files(= _________________________)
+
+
+All variables:
+1. Categorical/Nominal or Discrete/Ordinal-> Create Frequency tables.
+2. Continous numeric-> Explore using histograms and basic descriptive statistics.
+
+
+analysis:stroke case study
+dax use:
+measures, calculated columns,custom tables.
+steps:
+1.univariate analysis:chatagorical wise variable with target variable approach.(frequency tables)
+2.bi variate -analyze each variable with respect to target variable.identifying the influential target variables
+3.multi variate
+
+reference for -all variable calculation
+
+categorical (string with limit values)- gender, maritial status,education,
+discrete(limited with numeric)- #ofloans,#of_dependents
+continuous(unlimited )- age,income,temp.
